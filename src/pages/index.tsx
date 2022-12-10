@@ -58,7 +58,7 @@ const AddTodoInput = () => {
     >
       <input
         className={styles.input}
-        placeholder="Buy some milk"
+        placeholder="Walk the dog"
         value={text}
         onChange={e => setText(e.target.value)}
       />
@@ -76,9 +76,9 @@ const Home: NextPage = () => {
       </Head>
 
       <header className={styles.header}>
-        <h1 className={styles.title}>Todos</h1>
+        <h1 className={styles.title}>My Todos</h1>
         <h2 className={styles.desc}>
-          NextJS app connected to Postgres using Prisma and hosted on{" "}
+          List of my chores{" "}
           <a href="https://railway.app">Railway</a>
         </h2>
       </header>
